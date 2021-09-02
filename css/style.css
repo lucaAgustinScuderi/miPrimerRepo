@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/italia.jpg);
+    background-position: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+    text-shadow: black 5px 5px 10px;
+}
+
+p{
+    text-align: justify;
+    font-size: 22px;
+    margin: 0px 100px 0px 100px;
+    line-height: 35px ;
+    background: rgba(0, 0, 0, 0.39);;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 80px;
+    text-shadow: black 5px 5px 10px
+}
+
+#recetas{
+    text-align: center;
+}
+
+.contenedor1, .contenedor2{
+    border: rgba(0, 0, 0, 0.39) 1px solid;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 35vw;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+h4{
+    font-size: 35px;
+    text-align: center;
+    text-shadow: black 5px 5px 10px;
+}
+
+
+li{
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#video, #mapa{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+
