@@ -42,13 +42,13 @@ header ul li:hover{
 }
 
 
-h2{
+.tituloParrafo{
     text-align: center;
     font-size: 75px;
     text-shadow: black 5px 5px 10px;
 }
 
-p{
+.parrafoDesc{
     text-align: justify;
     font-size: 22px;
     margin: 0px 100px;
@@ -116,5 +116,33 @@ li{
     margin-bottom: 20px;
 }
  
+
+#contacto{
+    height: 60vh;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.435);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contacto h2{
+    font-size: 50px;
+}
+
+
+.formularioContacto .textoMensaje{
+    height: 10vh;
+    width: 14.8vw;
+    margin-bottom: 30px;
+
+}
+
+
+#contacto form p{
+    height: 5vh;
+    
+}
 
 
